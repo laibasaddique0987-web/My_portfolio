@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- bootstrap-icon -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top custom-nav">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">Lai.</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      ☰
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+         <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+         <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#price">Price</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- hero-section -->
+<section id="home" class="hero">
+
+  <video autoplay muted loop playsinline class="hero-video">
+    <source src="image/video.mp4" type="video/mp4">
+  </video>
+
+  <div class="container-fluid h-100">
+    <div class="row h-100">
+
+      <div class="col-md-6 p-0">
+        <div class="text-box glow-box">
+
+          <h6 class="top-text">HELLO! I'm Laiba Saddique</h6>
+          <h1>Creative Web Developer</h1>
+
+          <h3>I’m <span id="typing"></span></h3>
+
+          <p>
+            I build modern, responsive websites that help businesses grow online.
+          </p>
+
+          <div class="mt-4">
+            <button class="btn btn-main" onclick="openHireForm()">Hire Me</button>
+            <a href="#" class="btn btn-outline-light ms-2">Download CV</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</section>
+<!-- Hire Me Popup -->
+<div id="hirePopup" class="hire-popup">
+  <div class="hire-box">
+    <span class="close-btn" onclick="closeHireForm()">×</span>
+    <h3>Hire Me</h3>
+
+    <form id="hireForm">
+      <input type="text" id="h_name" placeholder="Your Name" required>
+      <input type="email" id="h_email" placeholder="Your Email (optional)">
+      <textarea id="h_message" placeholder="Your Message" required></textarea>
+
+      <button type="submit" class="btn btn-primary w-100 mt-3">Send Message</button>
+    </form>
+  </div>
+</div>
+<!-- stats-section -->
+<section class="stats-section">
+  <div class="container">
+    <div class="row text-center">
+
+      <div class="col-md-3 col-6 mb-4">
+        <div class="stat-box">
+          <div class="icon-circle">
+            <i class="bi bi-briefcase"></i>
+          </div>
+          <h2 class="counter" data-target="750">0</h2>
+          <p>PROJECT COMPLETE</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <div class="stat-box">
+          <div class="icon-circle">
+            <i class="bi bi-person"></i>
+          </div>
+          <h2 class="counter" data-target="568">0</h2>
+          <p>HAPPY CLIENTS</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <div class="stat-box">
+          <div class="icon-circle">
+            <i class="bi bi-cup-hot"></i>
+          </div>
+          <h2 class="counter" data-target="478">0</h2>
+          <p>CUPS OF COFFEE</p>
+        </div>
+      </div>
+
+      <div class="col-md-3 col-6 mb-4">
+        <div class="stat-box">
+          <div class="icon-circle">
+            <i class="bi bi-calendar"></i>
+          </div>
+          <h2 class="counter" data-target="7">0</h2>
+          <p>YEARS EXPERIENCED</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- about-section -->
+ <section id="about" class="about-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- IMAGE LEFT -->
+      <div class="col-lg-5 col-md-6 mb-4 mb-md-0">
+        <img src="image/freepik__background__14983.png" class="about-img" alt="profile">
+      </div>
+
+      <!-- CONTENT RIGHT -->
+      <div class="col-lg-7 col-md-6">
+        <h2>About Me</h2>
+
+        <p class="about-text">
+          A small river named Duden flows by their place and supplies it with the 
+          necessary regelialia. It is a paradisematic country, in which roasted parts 
+          of sentences fly into your mouth.
+        </p>
+
+        <!-- INFO -->
+        <div class="about-info mb-4">
+          <p><strong>Name:</strong> <span>Laiba Saddique</span></p>
+          <p><strong>Date of birth:</strong> <span>Dec 18, 2005</span></p>
+          <p><strong>Address:</strong> <span>Sadiq Abad</span></p>
+          <p><strong>Zip code:</strong> <span>1000</span></p>
+          <p><strong>Email:</strong> <span>laibasaddique0987@gmail.com</span></p>
+          <p><strong>Phone:</strong> <span>+1-2234-5678-9-0</span></p>
+        </div>
+
+        <!-- HOBBIES -->
+        <div class="row text-center hobbies-row">
+
+          <div class="col-6 col-md-3">
+            <div class="hobby-item">
+              <div class="icon-circle">
+                <i class="bi bi-music-note-beamed"></i>
+              </div>
+              <span>Music</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="hobby-item">
+              <div class="icon-circle">
+                <i class="bi bi-airplane"></i>
+              </div>
+              <span>Travel</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="hobby-item">
+              <div class="icon-circle">
+                <i class="bi bi-film"></i>
+              </div>
+              <span>Movie</span>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="hobby-item">
+              <div class="icon-circle">
+                <i class="bi bi-dribbble"></i>
+              </div>
+              <span>Sports</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- skill-section -->
+
+ <section id="skills" class="skills-section">
+  <div class="container text-center">
+
+    <h1 class="title">My Skills</h1>
+    <p class="subtitle">
+      I build modern, responsive, and high-performing websites that turn ideas into real digital experiences
+    </p>
+
+    <div class="row g-4 mt-4">
+
+
+      <!-- HTML -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/html-5.svg" alt="">
+          <h3>HTML</h3>
+          <div class="circle" data-percent="99"><span>99%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+       
+     <!-- CSS -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/css-3.svg" alt="">
+          <h3>CSS</h3>
+          <div class="circle" data-percent="95"><span>95%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- javascript -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/js.svg" alt="">
+          <h3>Javascript</h3>
+          <div class="circle" data-percent="78"><span>78%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bootstrap -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/bootstrap.svg" alt="">
+          <h3>Bootstrap</h3>
+          <div class="circle" data-percent="98"><span>98%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Figma -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/figma.svg" alt="">
+          <h3>Figma</h3>
+          <div class="circle" data-percent="88"><span>88%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Photoshop -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/adobe-photoshop.svg" alt="">
+          <h3>Photoshop</h3>
+          <div class="circle" data-percent="92"><span>92%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WordPress -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/wordpress.svg" alt="">
+          <h3>WordPress</h3>
+          <div class="circle" data-percent="83"><span>83%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- php -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/php-opened.svg" alt="">
+          <h3>PHP</h3>
+          <div class="circle" data-percent="79"><span>79%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+      <!-- SEO -->
+      <div class="col-lg-4 col-md-6">
+        <div class="skill-card">
+          <img src="image/seo-search.svg" alt="">
+          <h3>SEO</h3>
+          <div class="circle" data-percent="95"><span>95%</span></div>
+
+          <div class="bottom">
+            <div>
+              <h4>28%</h4>
+              <p>Last week</p>
+            </div>
+            <div class="divider"></div>
+            <div>
+              <h4>60%</h4>
+              <p>Last month</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section id="services" class="services py-5">
+  <div class="container text-center">
+
+    <h2 class="fw-bold mb-3">We do awesome services for our clients</h2>
+    <p class="text-muted mb-5">
+      We provide modern, responsive and high-quality digital solutions for your business growth.
+    </p>
+
+    <div class="row g-4">
+
+      <!-- 1 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-palette"></i></div>
+          <h5>Web Design</h5>
+          <p>
+            We create modern, user-friendly and responsive website designs that improve user experience 
+            and make your brand stand out online.
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-phone"></i></div>
+          <h5>Web Application</h5>
+          <p>We build powerful and scalable web applications tailored to your business needs.</p>
+        </div>
+      </div>
+
+      <!-- 3 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-code-slash"></i></div>
+          <h5>Web Development</h5>
+          <p>Clean, fast and secure websites using latest technologies and best coding practices.</p>
+        </div>
+      </div>
+
+      <!-- 4 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-image"></i></div>
+          <h5>Banner Design</h5>
+          <p>Creative and eye-catching banners that attract attention and boost engagement.</p>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-briefcase"></i></div>
+          <h5>Branding</h5>
+          <p>Build a strong brand identity with unique design and consistent visual elements.</p>
+        </div>
+      </div>
+
+      <!-- 6 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-vector-pen"></i></div>
+          <h5>Icon Design</h5>
+          <p>Custom icons designed to match your brand and improve UI/UX experience.</p>
+        </div>
+      </div>
+
+      <!-- 7 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-brush"></i></div>
+          <h5>Graphic Design</h5>
+          <p>Professional graphics for social media, marketing and brand promotion.</p>
+        </div>
+      </div>
+
+      <!-- 8 -->
+      <div class="col-lg-3 col-md-6">
+        <div class="service-card">
+          <div class="icon"><i class="bi bi-search"></i></div>
+          <h5>SEO</h5>
+          <p>
+            Improve your website ranking on search engines with our SEO strategies, 
+            keyword optimization and performance improvements.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+<!-- cta-section -->
+<section class="cta-section">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <!-- Left Content -->
+      <div class="col-lg-6 text-white">
+        <h1>Have a project on your mind.</h1>
+        <p>
+          A small river named Duden flows by their place and supplies it with the necessary
+          regelialia. It is a paradisematic country, in which roasted parts of sentences fly.
+        </p>
+
+        <button class="cta-btn">Contact me</button>
+      </div>
+
+      <!-- Right Image -->
+      <div class="col-lg-6 text-center">
+        <img src="image/freepik__background__14983.png" alt="person" class="cta-img">
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- our-project -->
+ <section  id="projects"  class="projects-section container-fluid py-5">
+  <h2 class="text-center mb-5">Our Projects</h2>
+
+  <div class="row g-4">
+
+    <!-- Project Card -->
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Web Development', 'We create modern, fast, and responsive websites that help businesses grow online.')">
+        <img src="image/web-design.jpg" class="img-fluid">
+        <div class="overlay">
+          <h4>WEB DESIGN</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Branding & Illustration', 'Creative branding solutions that make your business unique and memorable.')">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" class="img-fluid">
+        <div class="overlay">
+          <h4>Branding</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Marketing Strategy', 'Smart strategies to boost your sales and digital presence effectively.')">
+        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" class="img-fluid">
+        <div class="overlay">
+          <h4>Marketing</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Creative Ideas', 'Innovative ideas that bring your vision to life with perfection.')">
+        <img src="https://images.unsplash.com/photo-1492724441997-5dc865305da7" class="img-fluid">
+        <div class="overlay">
+          <h4>Creative</h4>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Social Media', 'We design engaging social media content to attract your audience.')">
+        <img src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2" class="img-fluid">
+        <div class="overlay">
+          <h4>Social Media</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Business Growth', 'Helping your business scale with powerful digital solutions.')">
+        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="img-fluid">
+        <div class="overlay">
+          <h4>Business</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Innovation', 'We deliver innovative and future-ready solutions.')">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" class="img-fluid">
+        <div class="overlay">
+          <h4>Innovation</h4>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-12">
+      <div class="project-card" onclick="openPopup('Technology', 'Advanced technology services to transform your business digitally.')">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" class="img-fluid">
+        <div class="overlay">
+          <h4>Technology</h4>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Popup -->
+<div class="popup" id="popup">
+  <div class="popup-content">
+    <span onclick="closePopup()">×</span>
+    <h3 id="popup-title"></h3>
+    <p id="popup-text"></p>
+  </div>
+</div>
+      
+          
+          
+          
+<section class="testimonial-section">
+  <h2 class="section-title">What Clients Say About My Work</h2>
+
+  <div class="testimonial-container">
+    <div class="testimonial-track">
+
+      <!-- 5 Cards -->
+      <div class="testimonial-card">
+        <p>"Laiba delivered an outstanding website beyond my expectations."</p>
+        <div class="client">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg">
+          <div>
+            <h4>Ali Khan</h4>
+            <span>Marketing Manager</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Professional and creative developer. Highly recommended!"</p>
+        <div class="client">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg">
+          <div>
+            <h4>Sara Ahmed</h4>
+            <span>Entrepreneur</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Excellent communication and high-quality work."</p>
+        <div class="client">
+          <img src="https://randomuser.me/api/portraits/men/12.jpg">
+          <div>
+            <h4>Usman Tariq</h4>
+            <span>Startup Founder</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Amazing experience! Clean code and beautiful UI."</p>
+        <div class="client">
+          <img src="https://randomuser.me/api/portraits/men/22.jpg">
+          <div>
+            <h4>Ahmed Raza</h4>
+            <span>Business Owner</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-card">
+        <p>"Delivered on time with perfection. Very cooperative."</p>
+        <div class="client">
+          <img src="https://randomuser.me/api/portraits/women/30.jpg">
+          <div>
+            <h4>Ayesha Noor</h4>
+            <span>Freelancer</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Dots -->
+  <div class="dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+     <!-- blog-card -->
+      <section id="blog" class="blog-section py-5">
+  <div class="container">
+    <h1>Latest Blogs</h1>
+    <div class="row">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="blog-card">
+          <div class="blog-img">
+            <img 
+              src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=800" 
+              loading="lazy" 
+              alt="web development"
+              width="100%" 
+              height="220">
+          </div>
+          <div class="blog-content">
+            <span class="blog-meta">Web Development</span>
+            <h4>Why Every Business Needs a Website</h4>
+            <p>A modern website builds trust and helps your business grow online faster.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="blog-card">
+          <div class="blog-img">
+            <img 
+              src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800" 
+              loading="lazy" 
+              alt="frontend"
+              width="100%" 
+              height="220">
+          </div>
+          <div class="blog-content">
+            <span class="blog-meta">Frontend</span>
+            <h4>Modern UI Design for Better Experience</h4>
+            <p>Clean design and responsive layouts make your website more attractive.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="blog-card">
+          <div class="blog-img">
+            <img 
+              src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=800" 
+              loading="lazy" 
+              alt="backend"
+              width="100%" 
+              height="220">
+          </div>
+          <div class="blog-content">
+            <span class="blog-meta">Backend</span>
+            <h4>Backend Development Importance</h4>
+            <p>Strong backend ensures speed, security, and smooth performance.</p>
+            <a href="#" class="read-more">Read More →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- pricing-card -->
+<section id="price"   class="pricing-section py-5" style="background:#a1afb8;">
+  <div class="container">
+
+    <div class="text-center text-white mb-5">
+      <small class="section-subtitle d-block mb-2">OUR PRICING PLANS</small>
+      <h2 class="section-title fw-bold">Choose Your Plan</h2>
+
+      <!-- Toggle -->
+      <div class="d-flex justify-content-center align-items-center gap-3 mb-4">
+        <span class="text-white fw-semibold">Monthly</span>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" id="billingToggle" />
+        </div>
+        <span class="text-white fw-semibold opacity-50">Yearly</span>
+      </div>
+    </div>
+
+    <div class="row g-4">
+
+      <!-- Starter -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card pricing-card shadow-sm">
+          <div class="card-body text-center">
+            <div class="icon-circle mb-3">
+              <svg width="28" height="28" fill="#0f2b3d" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M6 21v-2a6 6 0 0 1 6-6h6"/>
+              </svg>
+            </div>
+            <h5 class="card-title text-dark">Starter</h5>
+            <p class="text-muted mb-3">For small businesses</p>
+            <div class="price mb-4">
+              <span class="price-dollar">$</span><span class="price-amount">499</span><span class="price-period">/month</span>
+            </div>
+             <ul class="list-unstyled text-start mb-4">
+              <li><i class="bi bi-check2 text-success me-2"></i>Initial Business Assessment</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>Monthly Strategy Session</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>Email Support</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>Basic Analytics Report</li>
+              <li><i class="bi bi-x text-danger me-2"></i><s>Dedicated Consultant</s></li>
+              <li><i class="bi bi-x text-danger me-2"></i><s>24/7 Priority Support</s></li>
+            </ul>
+
+            <button class="btn btn-danger w-100 fw-bold">GET STARTED</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Professional (Most Popular) -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card pricing-card shadow-sm popular">
+          <div class="popular-badge">MOST POPULAR</div>
+          <div class="card-body text-center text-white">
+            <div class="icon-circle mb-3 bg-white bg-opacity-25">
+              <svg width="28" height="28" fill="#fff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M4 16l4-4-4-4"/>
+              </svg>
+            </div>
+            <h5 class="card-title text-white">Professional</h5>
+            <p class="text-white-50 mb-3">For growing companies</p>
+            <div class="price mb-4">
+              <span class="price-dollar">$</span><span class="price-amount">999</span><span class="price-period">/month</span>
+            </div>
+
+            <ul class="list-unstyled text-start mb-4">
+              <li><i class="bi bi-check2 text-white me-2"></i>Comprehensive Assessment</li>
+              <li><i class="bi bi-check2 text-white me-2"></i>Weekly Strategy Sessions</li>
+              <li><i class="bi bi-check2 text-white me-2"></i>Phone & Email Support</li>
+              <li><i class="bi bi-check2 text-white me-2"></i>Advanced Analytics Dashboard</li>
+              <li><i class="bi bi-check2 text-white me-2"></i>Dedicated Consultant</li>
+              <li><i class="bi bi-x text-white-50 me-2"></i><s>24/7 Priority Support</s></li>
+               </ul>
+
+            <button class="btn btn-light w-100 fw-bold">GET STARTED</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enterprise -->
+      <div class="col-lg-4 col-md-6 col-12">
+        <div class="card pricing-card shadow-sm">
+          <div class="card-body text-center">
+            <div class="icon-circle mb-3">
+              <svg width="28" height="28" fill="#0f2b3d" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M12 2l4 8-4 8-4-8z"/>
+              </svg>
+            </div>
+            <h5 class="card-title text-dark">Enterprise</h5>
+            <p class="text-muted mb-3">For large organizations</p>
+            <div class="price mb-4">
+              <span class="price-dollar">$</span><span class="price-amount">2499</span><span class="price-period">/month</span>
+            </div>
+
+            <ul class="list-unstyled text-start mb-4">
+              <li><i class="bi bi-check2 text-success me-2"></i>Full Business Transformation</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>Unlimited Strategy Sessions</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>24/7 Priority Support</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>Custom Analytics Platform</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>Dedicated Team of Consultants</li>
+              <li><i class="bi bi-check2 text-success me-2"></i>On-site Workshops</li>
+            </ul>
+
+            <button class="btn btn-danger w-100 fw-bold">CONTACT US</button>
+          </div>
+        </div>
+      </div>
+       </div>
+  </div>
+</section>
+<!-- contact-section -->
+<section id="Contact" class="contact-section">
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Map -->
+      <div class="col-lg-6 p-0">
+        <iframe 
+        src="https://www.google.com/maps?q=Sadiqabad%20Pakistan&output=embed"
+        width="100%" 
+        height="100%" 
+        style="border:0;"
+        loading="lazy">
+        </iframe>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="col-lg-6 contact-form">
+        <h2>Contact Me</h2>
+        <p>Feel free to contact me for your website project 🚀</p>
+
+        <div class="info">
+          <p><strong>Location:</strong> Sadiqabad, Pakistan</p>
+          <p><strong>Email:</strong> laibasaddique0987@gmail.com</p>
+        </div>
+
+        <!-- WhatsApp Button (NO NUMBER DISPLAY) -->
+        <a href="https://wa.me/923230359916?text=Hello%20I%20want%20a%20website" 
+           target="_blank" 
+           class="whatsapp-btn">
+           Chat on WhatsApp
+        </a>
+
+        <!-- CONTACT FORM -->
+        <form id="contact-form">
+
+          <div class="row">
+            <div class="col-md-6">
+              <input type="text" name="user_name" class="form-control" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" name="user_email" class="form-control" placeholder="Your Email" required>
+            </div>
+          </div>
+
+          <input type="text" name="subject" class="form-control mt-3" placeholder="Subject" required>
+
+          <textarea name="message" class="form-control mt-3" rows="5" placeholder="Write your message..." required></textarea>
+
+          <button type="submit" class="btn btn-primary mt-3">
+            Send Message
+          </button>
+
+        </form>
+
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FLOATING WHATSAPP BUTTON -->
+<a href="https://wa.me/923230359916?text=Hello%20I%20want%20a%20website" 
+   class="floating-whatsapp" 
+   target="_blank">
+   <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+</a>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<!-- footer-section -->
+<footer class="footer-section">
+  <div class="container">
+    <div class="row">
+
+      <!-- Column 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h4>Lets talk about</h4>
+        <p>
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <a href="#" class="btn learn-btn">Learn more</a>
+      </div>
+
+      <!-- Column 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h4>Links</h4>
+        <ul class="footer-links">
+          <li><i class="bi bi-chevron-right"></i> Home</li>
+          <li><i class="bi bi-chevron-right"></i> About</li>
+          <li><i class="bi bi-chevron-right"></i> Services</li>
+          <li><i class="bi bi-chevron-right"></i> Projects</li>
+          <li><i class="bi bi-chevron-right"></i> Contact</li>
+        </ul>
+      </div>
+
+      <!-- Column 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h4>Services</h4>
+        <ul class="footer-links">
+          <li><i class="bi bi-chevron-right"></i> Web Design</li>
+          <li><i class="bi bi-chevron-right"></i> Web Development</li>
+          <li><i class="bi bi-chevron-right"></i> Business Strategy</li>
+          <li><i class="bi bi-chevron-right"></i> Data Analysis</li>
+          <li><i class="bi bi-chevron-right"></i> Graphic Design</li>
+        </ul>
+      </div>
+
+      <!-- Column 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <h4>Have a Questions?</h4>
+        <p><i class="bi bi-geo-alt"></i> 203 Fake St. Mountain View, San Francisco, USA</p>
+        <p><i class="bi bi-telephone"></i> +2 392 3929 210</p>
+        <p><i class="bi bi-envelope"></i> info@yourdomain.com</p>
+
+        <!-- Social Icons -->
+        <div class="social-icons mt-3">
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<!-- navbar -->
+ <script>
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 80;
+      const sectionHeight = section.clientHeight;
+
+      if (scrollY >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
+<script>
+  window.addEventListener("scroll", function () {
+    const navbar = document.querySelector(".custom-nav");
+    navbar.classList.toggle("scrolled", window.scrollY > 50);
+  });
+</script>
+<!-- Typing Effect -->
+<script>
+const words = ["Freelancer","Web Developer","Responsive Designer","UI/UX Creator"];
+let i = 0, j = 0, current = "", deleting = false;
+
+function type() {
+  current = words[i];
+  document.getElementById("typing").innerHTML = current.substring(0, j);
+
+  if (!deleting && j < current.length) {
+    j++;
+  } else if (deleting && j > 0) {
+    j--;
+  } else {
+    deleting = !deleting;
+    if (!deleting) i = (i + 1) % words.length;
+  }
+
+  setTimeout(type, deleting ? 50 : 100);
+}
+type();
+</script>
+<!-- counter-animation -->
+ <script>
+const counters = document.querySelectorAll('.counter');
+
+const startCounter = (counter) => {
+  const target = +counter.getAttribute('data-target');
+  let count = 0;
+
+  const updateCount = () => {
+    const speed = 200; // lower = faster
+    const increment = target / speed;
+
+    if (count < target) {
+      count += increment;
+      counter.innerText = Math.ceil(count);
+      setTimeout(updateCount, 10);
+    } else {
+      counter.innerText = target;
+    }
+  };
+
+  updateCount();
+};
+
+// Run only when section is visible
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      counters.forEach(counter => startCounter(counter));
+      observer.disconnect(); // run once
+    }
+  });
+});
+
+observer.observe(document.querySelector('.stats-section'));
+</script>
+<!-- circle-fill -->
+ <script>
+  document.querySelectorAll('.circle').forEach(circle => {
+  let percent = circle.getAttribute('data-percent');
+  circle.style.setProperty('--percent', percent);
+});
+ </script>
+ <!-- function-toggle in project -->
+  <script>
+    function toggleOverlay(card) {
+  card.classList.toggle("active");
+}
+</script>
+</body>
+</html>
