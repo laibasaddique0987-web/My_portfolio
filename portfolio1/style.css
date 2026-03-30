@@ -1,0 +1,31 @@
+body{
+  background:rgb(226, 163, 184);
+}
+.custom-card {
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.custom-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+ 
+}
+/* .card-img-top img{
+  position: relative;
+  top: -90px; 
+} */
+
+.card-body {
+  text-align: center;
+}
+
+.btn {
+  margin-top: 10px;
+}
